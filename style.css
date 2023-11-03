@@ -92,11 +92,15 @@ p{
 #about{
     height: 100vh;
     background-color: rgb(80, 102, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .about{
     /* height: 100vh; */
     background-color: #4d61f4;
     width: 60%;
+    padding: 5em;
 }
 
 #about-p{
@@ -110,6 +114,7 @@ p{
 
 .technologies{
     /* height: 100vh; */
+    padding: 5em;
     background-color: rgb(80, 102, 43);
     width: 40%;
 }
@@ -161,7 +166,15 @@ li{
 #projects{
     background-color: lightblue;
     height: auto;
-    overflow: hidden;
+}
+
+#projects h1{
+    padding: 3em;
+    text-align: center;
+    letter-spacing: 5px;
+    color: lightgoldenrodyellow;
+    margin: -55px;
+    font-size: 2em;
 }
 
 .projects{
@@ -187,8 +200,12 @@ li{
 }
 
 #experience{
-    height: 55vh;
-    background-color: darkolivegreen
+    height: 100vh;
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .experiences{
@@ -202,7 +219,7 @@ li{
     background-color: #f7f7f7;
     padding: 2em;
     width: 30%;
-    height: 27em;
+    height: 30em;
     padding: 0 0 100px 0;
     border-radius: 1em;
     overflow: hidden;
@@ -216,6 +233,7 @@ li{
 }
 
 .experience p{
-    color: #006FCF;
+    padding: 2em;
+    color: #4d61f4;
 }
 
