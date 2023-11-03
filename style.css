@@ -1,6 +1,6 @@
 html{
     scroll-behavior: smooth;
-    /* scroll-padding: let(--scroll-padding, 5em); */
+    scroll-padding: 3em;
 } 
 
 *{
@@ -15,13 +15,19 @@ html{
     background-color: darkolivegreen;
     display: flex;
     align-items: center;
-    /* border-radius: 10px; */
+    position: fixed;
+    width: 100%;
+    z-index: 9999
 }
 
 .nav-links{
     width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+.nav-links a:hover{
+    color: rgb(250,250,180)
 }
 
 .nav-item{
@@ -48,15 +54,31 @@ p{
     text-align: center;
     letter-spacing: 5px;
     color: lightgoldenrodyellow;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    font-size: 2em;
 }
 
+.sub-title{
+    text-align: center;
+    letter-spacing: 5px;
+    color: lightgoldenrodyellow;
+    margin-top: 150px;
+}
+
+#amex{
+    background-color: #006FCF;
+}
+
+#multiverse{
+    background-color: #4d61f4;
+}
 
 .home{
     /* margin-top: 1em; */
     height: 100vh;
     background-color: darkolivegreen;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -69,18 +91,37 @@ p{
 
 #about{
     height: 100vh;
-    background-color: lightcoral;
+    background-color: rgb(80, 102, 43);
 }
 .about{
     /* height: 100vh; */
-    background-color: lightskyblue;
+    background-color: #4d61f4;
     width: 60%;
+}
+
+#about-p{
+    text-align:start;
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    word-wrap:break-word;
+    color: lightgoldenrodyellow;
 }
 
 .technologies{
     /* height: 100vh; */
-    background-color: lightcoral;
+    background-color: rgb(80, 102, 43);
     width: 40%;
+}
+
+.skills-p{
+    margin-top: 2em;
+    color: lightgoldenrodyellow;
+    letter-spacing: 3px;
+}
+
+li{
+    list-style: none;
 }
 
 .skills{
@@ -88,21 +129,39 @@ p{
     justify-content: space-around;
 }
 
+.skill-set{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill{
+    margin-top: 2em
+}
+
 .front-end{
-    background-color: palegoldenrod;
+    /* background-color: palegoldenrod; */
     height: 50vh;
     width: 45%;
 }
 
 .back-end{
-    background-color: palegoldenrod;
+    /* background-color: palegoldenrod; */
     height: 50vh;
     width: 45%;
+}
+
+#soon{
+    color: rgb(250,250,210);
+    letter-spacing: 3px;
 }
 
 #projects{
     background-color: lightblue;
     height: auto;
+    overflow: hidden;
 }
 
 .projects{
@@ -126,45 +185,37 @@ p{
     width: 30%;
     text-align: center;
 }
-/* SLIDER */
-/* 
-.container-slider{
-    position: relative;
+
+#experience{
+    height: 55vh;
+    background-color: darkolivegreen
+}
+
+.experiences{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.experience{
+    background-color: #f7f7f7;
+    padding: 2em;
+    width: 30%;
+    height: 27em;
+    padding: 0 0 100px 0;
+    border-radius: 1em;
     overflow: hidden;
+    margin-bottom: 1em;
+    box-shadow: 0 0 1px lightgrey;
 }
 
-.box{
-    width: 85%;
-    height: 500px;
-    margin: auto;
-    margin-top: 50px;
-    box-shadow: 0 0 3px grey;
+.experience h1{
+    padding: 1em;
+    color: #4d61f4;
 }
 
-.content-box{
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between;
-    /* overflow: hidden; */
-    /* height: 100%; */
-    /* position: absolute; */
-/* } */
-
-/* .slide{
-    width: 100%;
-    height: 100%;
-    transform: 1s;
-    position: absolute;
+.experience p{
+    color: #006FCF;
 }
-
-.content{
-    height: 80%;
-    /* background-color: blue; */
-/* } */
-
-.project-img{
-    width: 100%;
-    height: 100%;
-    /* position: absolute; */
-} 
 
