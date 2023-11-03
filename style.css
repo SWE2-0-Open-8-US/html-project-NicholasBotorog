@@ -1,14 +1,21 @@
-body{
-    /* background-color: grey; */
+html{
+    scroll-behavior: smooth;
+    /* scroll-padding: let(--scroll-padding, 5em); */
+} 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
 
 .navbar{
     height: 3em;
-    background-color: lightgoldenrodyellow;
+    background-color: darkolivegreen;
     display: flex;
     align-items: center;
-    border-radius: 10px;
-    box-shadow: 3px 2px 6px darkolivegreen;
+    /* border-radius: 10px; */
 }
 
 .nav-links{
@@ -23,7 +30,7 @@ body{
 
 a{
     text-decoration: none;
-    color: darkolivegreen;
+    color: lightgoldenrodyellow;
     font-weight: bold;
     letter-spacing: 3px;
 }
@@ -39,14 +46,14 @@ p{
 
 .title{
     text-align: center;
-    font-weight: bold;
     letter-spacing: 5px;
-    color: white;
+    color: lightgoldenrodyellow;
+    margin-bottom: 20px;
 }
 
 
 .home{
-    margin-top: 1em;
+    /* margin-top: 1em; */
     height: 100vh;
     background-color: darkolivegreen;
     display: flex;
@@ -60,14 +67,104 @@ p{
     justify-content: space-between;
 }
 
+#about{
+    height: 100vh;
+    background-color: lightcoral;
+}
 .about{
-    height: 80vh;
+    /* height: 100vh; */
     background-color: lightskyblue;
     width: 60%;
 }
 
 .technologies{
-    height: 80vh;
+    /* height: 100vh; */
     background-color: lightcoral;
     width: 40%;
 }
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+.front-end{
+    background-color: palegoldenrod;
+    height: 50vh;
+    width: 45%;
+}
+
+.back-end{
+    background-color: palegoldenrod;
+    height: 50vh;
+    width: 45%;
+}
+
+#projects{
+    background-color: lightblue;
+    height: auto;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.project{
+    height: 30%;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 30px
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+}
+/* SLIDER */
+/* 
+.container-slider{
+    position: relative;
+    overflow: hidden;
+}
+
+.box{
+    width: 85%;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 0 3px grey;
+}
+
+.content-box{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    /* overflow: hidden; */
+    /* height: 100%; */
+    /* position: absolute; */
+/* } */
+
+/* .slide{
+    width: 100%;
+    height: 100%;
+    transform: 1s;
+    position: absolute;
+}
+
+.content{
+    height: 80%;
+    /* background-color: blue; */
+/* } */
+
+.project-img{
+    width: 100%;
+    height: 100%;
+    /* position: absolute; */
+} 
+

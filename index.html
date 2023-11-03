@@ -10,28 +10,85 @@
 <body>
     <nav class="navbar">
         <ul class="nav-links">
-          <li class="nav-item"><a href="#">Home.</a></li>
-          <li class="nav-item"><a href="#">About.</a></li>
+          <li class="nav-item"><a href="#home">Home.</a></li>
+          <li class="nav-item"><a href="#about">About.</a></li>
           <li class="nav-item"><a href="#">Experience.</a></li>
-          <li class="nav-item"><a href="#">Projects.</a></li>
+          <li class="nav-item"><a href="#projects">Projects.</a></li>
         </ul>
       </nav>
-
-    <div class="home">
-        <h1 class="title">Name goes here</h1>
-    </div>
-
-    <div class="side-by-side">
-        <div class="about">
-            <h1 class="title">About</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus iusto nemo quisquam eum sit dolorem quod totam dolor, earum obcaecati itaque deserunt laudantium dignissimos in modi quia velit voluptas tempore.</p>
+    
+    <section id="home">
+        <div class="home">
+            <h1 class="title">Name goes here</h1>
         </div>
+    </section>
 
-        <aside class="technologies">
-            <h1 class="title">Technologies</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quis voluptatem animi nostrum molestiae impedit laudantium odit sint odio? Quod odit saepe praesentium perferendis nam incidunt placeat pariatur eum quisquam!</p>
-        </aside>
-    </div>
+    <section id="about">
+        <div class="side-by-side">
+            <div class="about">
+                <h1 class="title">About</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus iusto nemo quisquam eum sit dolorem quod totam dolor, earum obcaecati itaque deserunt laudantium dignissimos in modi quia velit voluptas tempore.</p>
+            </div>
+    
+            <aside class="technologies">
+                <h1 class="title">Technologies</h1>
+                <div class="skills">
+                    <div class="front-end">
+                        <p>Front-end</p>
+                    </div>
+    
+                    <div class="back-end">
+                        <p>Back-end</p>
+                    </div>
+                </div>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quis voluptatem animi nostrum molestiae impedit laudantium odit sint odio? Quod odit saepe praesentium perferendis nam incidunt placeat pariatur eum quisquam!</p> -->
+            </aside>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1 class="title">Projects.</h1>
+
+        <container class="projects">
+            <div class="project">
+                <div class="content">
+                    <h1 class="title">TITLE</h1>
+                    <img src="https://picsum.photos/id/236/550/450" alt="screenshot project" />
+                </div>
+
+                <div class="description">
+                    <p>DESCRIPTION</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus soluta voluptate maxime reiciendis totam neque placeat rem enim unde rerum, quasi et quo non, beatae velit pariatur quam magnam alias.</p>
+                </div>
+            </div>
+            <hr/>
+
+            <div class="project">
+                <div class="description">
+                    <p>DESCRIPTION</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus soluta voluptate maxime reiciendis totam neque placeat rem enim unde rerum, quasi et quo non, beatae velit pariatur quam magnam alias.</p>
+            </div>
+                <div class="content">
+                    <h1 class="title">TITLE</h1>
+                    <img src="https://picsum.photos/id/238/550/450" alt="screenshot project" />
+                </div>
+            </div>
+            <hr/>
+
+            <div class="project">
+                <div class="content">
+                    <h1 class="title">TITLE</h1>
+                    <img src="https://picsum.photos/id/240/550/450" alt="screenshot project" />
+                </div>
+
+                <div class="description">
+                    <p>DESCRIPTION</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus soluta voluptate maxime reiciendis totam neque placeat rem enim unde rerum, quasi et quo non, beatae velit pariatur quam magnam alias.</p>
+                </div>
+            </div>
+            <hr/>
+        </container>
+    </section>
 
 </body>
 <script src="index.js"></script>
