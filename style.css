@@ -13,7 +13,6 @@ body{
     background-color:rgb(80, 102, 43);
 }
 
-
 .navbar{
     height: 3em;
     background-color: darkolivegreen;
@@ -70,6 +69,7 @@ p{
 }
 
 .amex{
+
     background-color: #006FCF;
 }
 
@@ -167,6 +167,7 @@ li{
     letter-spacing: 3px;
 }
 
+
 #experience{
     height: 103vh;
     background-color: darkolivegreen;
@@ -207,6 +208,7 @@ li{
 
 #projects{
     background-color: #4d61f4;
+
     height: auto;
 }
 
@@ -241,6 +243,7 @@ li{
     text-align: center;
 }
 
+
 .description p{
     color: lightgoldenrodyellow;
 }
@@ -270,3 +273,4 @@ li{
     width: 85%;
     align-self: center;
 }
+
