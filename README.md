@@ -1,6 +1,6 @@
 # HTML Project
 
-#Live ([https://swe2-0-open-8-us.github.io/html-project-NicholasBotorog/](https://swe2-0-open-8-us.github.io/html-project-NicholasBotorog/))
+**[Live]** ([https://swe2-0-open-8-us.github.io/html-project-NicholasBotorog/](https://swe2-0-open-8-us.github.io/html-project-NicholasBotorog/))
 
 GOAL: Build a profile site that is all about you and to showcase all the work that you will do during your apprenticeship!
 
