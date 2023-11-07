@@ -9,6 +9,10 @@ html{
     box-sizing: border-box;
 }
 
+body{
+    background-color:rgb(80, 102, 43);
+}
+
 
 .navbar{
     height: 3em;
@@ -65,7 +69,7 @@ p{
     margin-top: 150px;
 }
 
-#amex{
+.amex{
     background-color: #006FCF;
 }
 
@@ -163,44 +167,8 @@ li{
     letter-spacing: 3px;
 }
 
-#projects{
-    background-color: lightblue;
-    height: auto;
-}
-
-#projects h1{
-    padding: 3em;
-    text-align: center;
-    letter-spacing: 5px;
-    color: lightgoldenrodyellow;
-    margin: -55px;
-    font-size: 2em;
-}
-
-.projects{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.project{
-    height: 30%;
-    display:flex;
-    justify-content: space-around;
-    margin-top: 30px
-}
-
-.description{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 30%;
-    text-align: center;
-}
-
 #experience{
-    height: 100vh;
+    height: 103vh;
     background-color: darkolivegreen;
     display: flex;
     flex-direction: column;
@@ -237,3 +205,68 @@ li{
     color: #4d61f4;
 }
 
+#projects{
+    background-color: #4d61f4;
+    height: auto;
+}
+
+#projects h1{
+    padding: 3em;
+    text-align: center;
+    letter-spacing: 5px;
+    color: lightgoldenrodyellow;
+    margin: -55px;
+    font-size: 2em;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.project{
+    height: 30%;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 30px
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+}
+
+.description p{
+    color: lightgoldenrodyellow;
+}
+
+.skill-set-projects{
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer{
+    height: 2em;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkolivegreen;
+}
+
+.footer p{
+    color: lightgoldenrodyellow;
+}
+
+.hr{
+    margin-top: 10px;
+    width: 85%;
+    align-self: center;
+}
