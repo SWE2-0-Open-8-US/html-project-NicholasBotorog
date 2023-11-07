@@ -7,6 +7,7 @@ html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 body{
@@ -234,6 +235,22 @@ li{
     margin-top: 30px
 }
 
+.content{
+    width: 40%;
+}
+
+.content h1{
+    align-self: center;
+}
+
+.buttons-controller{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
 .description{
     display: flex;
     flex-direction: column;
@@ -273,3 +290,18 @@ li{
     align-self: center;
 }
 
+.slider{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 10px grey;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: absolute;
+}

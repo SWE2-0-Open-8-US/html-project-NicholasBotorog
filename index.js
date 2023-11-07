@@ -1,28 +1,31 @@
-const slide = document.querySelectorAll('.slide')
-const btnNext = document.querySelector('#next')
-const btnPrev = document.querySelector('#prev')
+const slides = document.querySelectorAll('.slide')
+const btnNext = document.querySelector('.next')
+const btnPrev = document.querySelector('.prev')
 
-let count = 0 
+let counter = 0 
 
-slide.forEach((slide, index)=>{
-    slide.computedStyleMap.left = `${index * 100}%`
+slides.forEach((slide, index)=>{
+    slide.style.left = `${index * 100}%`
 })
 
 const next = () => { 
     counter++ 
-    slideContent()
+    slideImage()
 }
 
 const previous = () => { 
     counter--
-    slideContent()
+    slideImage()
 }
 
-const slideContent = () => { 
-    slides.forEach(slide =>{
-        slide.style.transform =`transalteX(-${counter * 100}%)`
+const slideImage = () => { 
+    slides.forEach((slide) =>{
+        slide.style.transform =`translateX(${counter * 100}%)`
     })
 }
 
-// btnNext.addEventListener('click', next)
-// btnPrev.addEventListener('click', previous)
+// setInterval(slideImage, 1000)
+
+
+btnNext.addEventListener('click', next)
+btnPrev.addEventListener('click', previous)
