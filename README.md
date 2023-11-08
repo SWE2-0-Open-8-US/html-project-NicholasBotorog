@@ -1,5 +1,7 @@
 # HTML Project
 
+[LIVE](https://swe2-0-open-8-us.github.io/html-project-NicholasBotorog/)
+
 GOAL: Build a profile site that is all about you and to showcase all the work that you will do during your apprenticeship!
 
 This is a chance to show off who you are, what you're about, and what you've accomplished.
