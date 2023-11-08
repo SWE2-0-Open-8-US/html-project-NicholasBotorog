@@ -305,3 +305,15 @@ li{
     transition: 1s;
     position: absolute;
 }
+
+.buttons-controller{
+    height: 1em;
+}
+
+.next:hover{
+    cursor: pointer;
+}
+
+.prev:hover{
+    cursor: pointer;
+}
